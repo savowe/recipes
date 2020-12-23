@@ -12,6 +12,7 @@ def theme_url(request):
         return static('themes/flatly.min.css')
     themes = {
         UserPreference.BOOTSTRAP: 'themes/bootstrap.min.css',
+        UserPreference.FANTASY: 'themes/fantasy.css',
         UserPreference.FLATLY: 'themes/flatly.min.css',
         UserPreference.DARKLY: 'themes/darkly.min.css',
         UserPreference.SUPERHERO: 'themes/superhero.min.css',

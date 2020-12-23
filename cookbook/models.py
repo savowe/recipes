@@ -35,10 +35,11 @@ class UserPreference(models.Model):
     # Themes
     BOOTSTRAP = 'BOOTSTRAP'
     DARKLY = 'DARKLY'
+    FANTASY = 'FANTASY'
     FLATLY = 'FLATLY'
     SUPERHERO = 'SUPERHERO'
 
-    THEMES = ((BOOTSTRAP, 'Bootstrap'), (DARKLY, 'Darkly'), (FLATLY, 'Flatly'), (SUPERHERO, 'Superhero'))
+    THEMES = ((BOOTSTRAP, 'Bootstrap'), (DARKLY, 'Darkly'), (FANTASY, 'Fantasy'), (FLATLY, 'Flatly'), (SUPERHERO, 'Superhero'))
 
     # Nav colors
     PRIMARY = 'PRIMARY'
